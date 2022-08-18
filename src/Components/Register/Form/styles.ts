@@ -24,6 +24,10 @@ export const FormBox = styled.div`
   .box-form {
     max-height: 40rem;
     min-height: 30rem;
+    border: 1px solid rgb(220, 220, 220);
+    border-radius: 5px;
+    padding: 30px; 
+    box-shadow: 8px 8px 8px 1px rgb(0 0 0 / 15%);
     width: 60%;
     display: flex;
     flex-direction: column;
