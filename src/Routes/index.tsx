@@ -12,7 +12,7 @@ export function PrivateRoute(props: any) {
   var token = localStorage.getItem("token");
   const tokenUser = useContext(ContextAuth);
     if (!tokenUser.isAuthenticated) {
-      return <h1>a</h1>
+      return <h1>401 Unauthorized</h1>
     }
   return props.children;
 }
